@@ -1,0 +1,9 @@
+---
+- name: use myfirstrole  role playbook
+  hosts: 44.204.155.104
+  user: root
+  become: true
+
+  roles:
+    - role: myfirstrole
+      system_manager: admin@golinuxcloud.com
