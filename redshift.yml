@@ -1,0 +1,4 @@
+- hosts: 18.206.161.197
+  gather_facts: True
+  roles:
+    - rds-connection

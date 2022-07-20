@@ -1,0 +1,10 @@
+---
+# tasks file for motd
+- name: copy myfirstrole file
+  template:
+     src: templates/myfirstrole.j2
+     dest: /etc/myfirstrole
+     owner: root
+     group: root
+     mode:  0444
+# tasks file for myfirstrole
