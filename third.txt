@@ -1,2 +1,3 @@
 my third change.
 changes in third file.
+changes in thirdfile thirdline.
